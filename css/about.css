@@ -1,0 +1,364 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inconsolata:wght@200..900&display=swap");
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+body {
+  overflow-x: hidden;
+}
+
+/* contact title*/
+.contact-us {
+  background: #140147;
+  padding: 8px;
+  display: flex;
+  gap: 10px;
+  font-weight: 500;
+  color: white;
+  justify-content: flex-end;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.social-icons {
+  display: flex;
+  gap: 12px;
+  margin-right: 30px;
+}
+
+.social-icons a {
+  cursor: pointer;
+}
+
+/* navabar */
+nav {
+  background-color: white;
+  height: 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0px 20px;
+  flex-wrap: wrap;
+}
+
+nav img {
+  height: 100px;
+  width: 200px;
+}
+
+nav ul {
+  font-size: 18px;
+  display: flex;
+  list-style: none;
+  font-weight: 600;
+  gap: 50px;
+  flex-wrap: wrap;
+  margin-right: 20px;
+}
+
+nav ul li a {
+  text-transform: uppercase;
+  text-decoration: none;
+  color: #000;
+  font-family: "Poppins", sans-serif;
+  font-weight: 500;
+}
+
+/* canvas */
+.canvas-area {
+  background-color: #c9c6c6;
+  height: 50vh;
+  width: 100%;
+}
+
+/* kayson quote */
+.quote {
+  height: 120px;
+  background-color: #f0801f;
+  padding: 20px 40px;
+}
+
+.quote p {
+  font-weight: 600;
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  font-style: italic;
+  text-align: center;
+  max-width: 900px;
+  color: white;
+  font-size: 25px;
+}
+
+/* about section */
+
+.about-section {
+  padding: 20px;
+  margin: 0 40px;
+}
+
+.about-section h2 {
+  font-size: 30px;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  font-family: "Roboto", sans-serif;
+  text-align: center;
+  margin-top: 20px;
+}
+
+.about-section p {
+  margin: 0 auto;
+  font-family: "Poppins", sans-serif;
+  margin-top: 20px;
+  color: #4d4949;
+  font-size: 18px;
+  font-weight: 500;
+  line-height: 2.5rem;
+}
+
+/* vision and mission para style */
+.section {
+  margin-top: 20px;
+  max-width: 900px;
+}
+
+.vision-container {
+  background-color: #f0801f;
+  padding: 40px 20px;
+  margin-bottom: 40px;
+  position: relative;
+  border-radius: 5px;
+}
+
+.mission-container {
+  background-color: #f0801f;
+  padding: 40px 60px;
+  border-radius: 5px;
+  right: 0;
+  position: absolute;
+}
+
+.label {
+  position: absolute;
+  top: 20px;
+  right: -30px;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+
+.label2 {
+  position: absolute;
+  top: 20px;
+  left: -80px;
+  background-color: #000;
+  color: #fff;
+  padding: 15px 20px;
+  font-weight: bold;
+  letter-spacing: 2px;
+  border-radius: 5px;
+}
+
+.text {
+  line-height: 1.6;
+  font-family: "Poppins", sans-serif;
+  font-weight: 600;
+  color: 000;
+  max-width: 800px;
+}
+
+/* chairman message */
+.message {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top: 200px;
+}
+
+.message-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin-right: 50px;
+}
+
+.message-content p {
+  margin-top: 20px;
+  font-family: "Inconsolata", monospace;
+  font-weight: 600;
+  /* text-align: center; */
+
+  max-width: 750px;
+  letter-spacing: 1px;
+}
+
+.message-content h2 {
+  font-family: "Inconsolata", monospace;
+  letter-spacing: 1px;
+  font-weight: 900;
+  font-size: 30px;
+  text-transform: capitalize;
+  margin-top: 20px;
+}
+
+.avtar-img {
+  margin: 0 auto;
+  padding: 80px;
+  border: 2px solid #f0801f;
+}
+
+/* footer */
+footer {
+  margin-top: 50px;
+  background-color: #030330;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+  padding: 20px;
+}
+
+.footer-content h2 {
+  margin: 20px 0;
+  font-size: 24px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #f0801f;
+}
+
+.footer-content p {
+  margin: 10px 0;
+  font-weight: 500;
+  color: #fff;
+}
+
+.footer-contactus {
+  color: #fff;
+  text-align: right;
+}
+
+.footer-social-icons i {
+  font-size: 20px;
+  cursor: pointer;
+  padding: 5px;
+  margin-bottom: 20px;
+}
+
+.info {
+  display: flex;
+  gap: 10px;
+  margin-right: 10px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+/* Responsive adjustments */
+@media (max-width: 768px) {
+  .nav ul {
+    gap: 10px;
+  }
+
+  .quote p {
+    font-size: 16px;
+  }
+
+  .about-section {
+    margin: 0 10px;
+  }
+
+  .vision-container,
+  .mission-container {
+    font-size: 15px;
+    padding: 20px 60px;
+    text-align: center;
+  }
+
+  .label,
+  .label2 {
+    display: none;
+  }
+  .message {
+    flex-direction: column;
+    padding: 20px;
+  }
+
+  .message-content h2 {
+    text-align: center;
+    margin: 20px auto;
+  }
+
+  .message-content p {
+    margin-left: 50px;
+  }
+
+  .avtar-img {
+    padding: 20px;
+  }
+
+  .avtar-img img {
+    height: 100px;
+  }
+
+  .footer-content,
+  .footer-contactus {
+    text-align: center;
+    padding: 10px;
+  }
+
+  footer {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 480px) {
+  nav {
+    padding: 0 10px;
+  }
+
+  nav h3 {
+    margin-left: 10px;
+  }
+
+  .quote p {
+    font-size: 14px;
+  }
+
+  .about-section h2 {
+    font-size: 24px;
+  }
+
+  .about-section p {
+    font-size: 14px;
+    line-height: 1.5rem;
+  }
+
+  .avtar-img {
+    margin-top: 50px;
+  }
+  .message-content p {
+    font-size: 14px;
+    line-height: 1.4rem;
+  }
+
+  .message-content h2 {
+    font-size: 20px;
+  }
+
+  .avtar-img {
+    max-width: 150px;
+  }
+}
